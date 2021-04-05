@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Password Key Manager",
+    "classes": "featured feature-1",
+    "description": "Password safe for any web, mobile or desktop application encrypting passwords, fully scalable and scalable with user authentication and scope of permissions for each password and file control.",
+    "techList": [
+      "Electron",
+      "Javascript",
+      "Crypto",
+      "GraphiQL",
+      "Passport",
+      "Sql Server"
+    ],
+    "img": "passvaultcloud.png",
+    "siteLink": "",
+    "featured": true
+  },
+  {
+    "title": "Signature Maker E-mail",
+    "classes": "project",
+    "description": "Fully customizable email signature generator.",
+    "techList": [
+      "VueJs",
+      "Theme UI",
+      "GraphQL"
+    ],
+    "img": "signature.png",
+    "codeLink": "https://github.com/rtorreson",
+    "featured": false
+  },
+  {
+    "title": "Mail Massive",
+    "classes": "project",
+    "description": "My first Vue application. I wanted to learn Vue so I created this GitHub profile viewing app.",
+    "techList": [
+      "ReactJS",
+      "Nodemailer",
+      "MongoDB",
+      "GraphQL"
+    ],
+    "img": "mail.png",
+    "codeLink": "https://github.com/rtorreson",
+    "featured": false
+  },
+  {
+    "title": "Spotify Clone Web Api",
+    "classes": "project",
+    "description": "Spotify cloning project, client made with react and api rest using node and the spotify api to access the music tracks.",
+    "techList": [
+      "Contentful",
+      "Gatsby",
+      "React",
+      "Netlify",
+      "Emotion",
+      "GraphQL"
+    ],
+    "img": "spotify.png",
+    "codeLink": "https://github.com/rtorreson",
+    "featured": false
+  },
+  {
+    "title": "To Do List Mobile",
+    "classes": "feature-2 featured",
+    "description": "Learning about react-native, I did my first TO DO LIST project using the expo for the android and ios build.",
+    "techList": [
+      "React-Native",
+      "React",
+      "Expo",
+      "React Native Paper",
+      "Ios and Android"
+    ],
+    "img": "phone-green.png",
+    "siteLink": "",
+    "featured": true
+  },
+  {
+    "title": "ReactLMS",
+    "classes": "project",
+    "description": "Remote study project aiming to be a study platform. It can be instantiated for each institution so that they can register their contents, videos, texts and documents for their respective students to access from wherever they are.",
+    "techList": [
+      "React",
+      "GraphGL",
+      "Material UI",
+      "Passport",
+      "Sql Server",
+      "Sequelize",
+      ""
+    ],
+    "img": "studying.png",
+    "siteLink": "",
+    "featured": false
+  }
+]
