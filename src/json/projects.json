@@ -31,7 +31,7 @@
   {
     "title": "Mail Massive",
     "classes": "project",
-    "description": "My first Vue application. I wanted to learn Vue so I created this GitHub profile viewing app.",
+    "description": "My first application in Vue. I wanted to learn Vue, so I created this app that sends bulk email.",
     "techList": [
       "ReactJS",
       "Nodemailer",
