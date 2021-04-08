@@ -139,7 +139,7 @@ const Contacts = () => {
                 <label>Message</label>
           <input
             id="message"
-            placeholder="Hi, my name is Rafael, I'm from the company @Torreson and would like an budget."
+            placeholder="Hi, I'm from the company @Torreson and would like more information."
             value={message}
             onChange={e => setMessage(e.target.value)}
           />
