@@ -2,7 +2,7 @@
   {
     "title": "PagNext (Santander)",
     "classes": "featured feature-1",
-    "description": "PagNext (Santander Internal Company) responsible for risk and fraud prevention, cre ating microservice solutions for Argentina and Mexico, integrating with Brazil to ensure that internet banking is functional and performative.",
+    "description": "PagNext (Santander Internal Company) responsible for risk and fraud prevention, creating microservice solutions for Argentina and Mexico, integrating with Brazil to ensure that internet banking is functional and performative.",
     "techList": [
       "Typescript",
       "NodeJS",
@@ -11,7 +11,7 @@
       "Docker and Docker Compose",
       "MongoDB"
     ],
-    "img": "santander.svg",
+    "img": "santander-logo.png",
     "siteLink": "",
     "featured": true
   },
