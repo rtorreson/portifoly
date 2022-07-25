@@ -2,7 +2,7 @@
   {
     "title": "PagNext (Santander)",
     "classes": "featured feature-1",
-    "description": "",
+    "description": "PagNext (Santander Internal Company) responsible for risk and fraud prevention, creating microservice solutions for Argentina and Mexico, integrating with Brazil to ensure that internet banking is functional and performative.",
     "techList": [
       "Typescript",
       "NodeJS",
