@@ -1,17 +1,17 @@
 [
   {
-    "title": "Password Key Manager",
+    "title": "PagNext (Santander)",
     "classes": "featured feature-1",
-    "description": "Password safe for any web, mobile or desktop application encrypting passwords, fully scalable and scalable with user authentication and scope of permissions for each password and file control.",
+    "description": "",
     "techList": [
-      "Electron",
-      "Javascript",
-      "Crypto",
-      "GraphiQL",
-      "Passport",
-      "Sql Server"
+      "Typescript",
+      "NodeJS",
+      "RabbitMQ",
+      "Mocha and Jest",
+      "Docker and Docker Compose",
+      "MongoDB"
     ],
-    "img": "passvaultcloud.png",
+    "img": "santander-logo.png",
     "siteLink": "",
     "featured": true
   },
@@ -43,31 +43,40 @@
     "featured": false
   },
   {
-    "title": "Spotify Clone Web Api",
+    "title": "CRM and ERP",
     "classes": "project",
-    "description": "Spotify cloning project, client made with react and api rest using node and the spotify api to access the music tracks.",
+    "description": "Vereda Educação system to management students and internal users to mouthly payment integration to Stone Gateway API, to create students and allocate classroom, distribution of teachers in classes, online secretary and grades.",
     "techList": [
       "Contentful",
       "Gatsby",
       "React",
-      "Netlify",
       "Emotion",
-      "GraphQL"
+      "GraphQL",
+      "Azure",
+      "Azure DevOps",
+      "Azure Pipelines",
+      "Prisma",
+      "Typescript",
+      "NodeJS",
+      "Docker and Docker Compose",
+      "Gateway Api",
+      "Azure",
+      "React-Native"
     ],
     "img": "spotify.png",
     "codeLink": "https://github.com/rtorreson",
     "featured": false
   },
   {
-    "title": "To Do List Mobile",
+    "title": "Senior Services",
     "classes": "feature-2 featured",
-    "description": "Learning about react-native, I did my first TO DO LIST project using the expo for the android and ios build.",
+    "description": "",
     "techList": [
       "React-Native",
-      "React",
-      "Expo",
+      "React Typescript",
+      "MongoDB",
       "React Native Paper",
-      "Ios and Android"
+      "Gov.br Integration"
     ],
     "img": "phone-green.png",
     "siteLink": "",
