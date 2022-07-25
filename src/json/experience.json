@@ -1,5 +1,30 @@
 [
   {
+    "company": "@DBC Company",
+    "dates": "May 2022 - Actualy",
+    "position": "FullStack Developer Senior",
+    "copy": "Software architect at PagNext (Santander Internal Company) responsible for risk and fraud prevention, creating microservice solutions for Argentina and Mexico, integrating with Brazil to ensure that internet banking is functional and performative.",
+    "jobFeatures": [
+      "Typescript",
+      "NodeJS",
+      "Mocha",
+      "MongoDB",
+      "API Gateway",
+      "React Typescript",
+      "Jest", 
+      "Docker",
+      "Docker Compose",
+      "Azure DevOps",
+      "Azure pipelines",
+      "SonarQube",
+      "Service Orchestration",
+      "Gateway Payment",
+      "Jenkins",
+      "Rabbitmq"
+    ],
+    "open": true
+  },
+  {
     "company": "@Torreson",
     "dates": "January 2018 — Actually",
     "position": "FullStack Developer",
@@ -14,16 +39,18 @@
       "NestJS",
       "Vue"
     ],
-    "open": true
+    "open": false
   },
   {
     "company": "@Vereda Educação",
-    "dates": "October 2020 - Actually",
-    "position": "FullStack Developer",
+    "dates": "January 2018 — May 2022 ",
+    "position": "FullStack Developer Senior",
     "copy": "Developing applications of internal solutions for the management of the company with a distance learning portal, signature generator for email, api rest for data synchronization and a carometer for ratchet exit control.",
     "jobFeatures": [
       "VueJS",
       "NodeJS",
+      "Typescript",
+      "Microservices",
       "ReactJS",
       "Azure Cloud Service",
       "SQL Server",
@@ -34,16 +61,17 @@
     "open": false
   },
   {
-    "company": "@Vereda Educação",
+    "company": "@Vereda Educação - Consultory",
     "dates": "April 2019 — February 2021",
-    "position": "Technology Analyst JR",
+    "position": "DevSecOps Senior",
     "copy": "I worked as a network and infrastructure administrator, managing local and virtual servers, building cutting-edge applications and using open-source tools for everyday focus.",
     "jobFeatures": [
       "Migration Gsuite to Office365",
       "Administrator Active Directory on Premises",
       "Administrator AzureAD and Office365",
       "Jira",
-      "Azure Administrator"
+      "Azure Administrator",
+      "Azure Architec"
     ],
     "open": false
   }
