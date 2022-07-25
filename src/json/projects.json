@@ -36,7 +36,8 @@
       "ReactJS",
       "Nodemailer",
       "MongoDB",
-      "GraphQL"
+      "GraphQL",
+      "AWS"
     ],
     "img": "mail.png",
     "codeLink": "https://github.com/rtorreson",
