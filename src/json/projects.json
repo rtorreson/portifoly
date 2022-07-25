@@ -70,7 +70,7 @@
   {
     "title": "Senior Services",
     "classes": "feature-2 featured",
-    "description": "",
+    "description": "App for management caregivers and clients, focused on managing skills for clients with needs, approved and integrated with the government of são paulo, bringing information from caregivers.",
     "techList": [
       "React-Native",
       "React Typescript",
