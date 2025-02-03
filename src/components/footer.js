@@ -62,11 +62,11 @@ const FooterCopy = styled.h5`
 
 
 const Footer = ({ bgColor }) => {
-
+  const fullyear = () => new Date().getFullYear()
   return (
     <StyledFooter bgColor={bgColor}>
       <StyledContainer>
-        <FooterCopy>© Rafael Torreson 2021. Todos os direitos reservados. </FooterCopy>
+        <FooterCopy>© RF Torreson {'-'} {fullyear()}. Todos os direitos reservados. </FooterCopy>
       </StyledContainer>
     </StyledFooter>
   )

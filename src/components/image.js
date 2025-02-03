@@ -33,6 +33,7 @@ const Image = props => (
           alt={props.alt}
           sizes={image.node.childImageSharp.sizes}
           className={props.classes}
+          loading="lazy"
         />
       )
     }

@@ -1,19 +1,12 @@
 [
   {
-    "title": "PagNext (Santander)",
-    "classes": "featured feature-1",
-    "description": "PagNext (Santander Internal Company) responsible for risk and fraud prevention, creating microservice solutions for Argentina and Mexico, integrating with Brazil to ensure that internet banking is functional and performative.",
-    "techList": [
-      "Typescript",
-      "NodeJS",
-      "RabbitMQ",
-      "Mocha and Jest",
-      "Docker and Docker Compose",
-      "MongoDB"
-    ],
-    "img": "santander-logo.png",
+    "title": "Senior Services",
+    "classes": "project",
+    "description": "Senior Services é uma empresa de cuidadores de idosos especialistas em empatia com excelencia.",
+    "techList": [],
+    "img": "senior-services.png",
     "siteLink": "",
-    "featured": true
+    "featured": false
   },
   {
     "title": "Signature Maker E-mail",
@@ -29,7 +22,7 @@
     "featured": false
   },
   {
-    "title": "Mail Massive",
+    "title": "PagoNxt",
     "classes": "project",
     "description": "My first application in Vue. I wanted to learn Vue, so I created this app that sends bulk email.",
     "techList": [
@@ -39,14 +32,14 @@
       "GraphQL",
       "AWS"
     ],
-    "img": "mail.png",
-    "codeLink": "https://github.com/rtorreson",
+    "img": "pagonxt.png",
+    "codeLink": "https://www.pagonxt.com",
     "featured": false
   },
   {
-    "title": "CRM and ERP",
+    "title": "Vereda",
     "classes": "project",
-    "description": "Vereda Educação system to management students and internal users to mouthly payment integration to Stone Gateway API, to create students and allocate classroom, distribution of teachers in classes, online secretary and grades.",
+    "description": "",
     "techList": [
       "Contentful",
       "Gatsby",
@@ -69,22 +62,22 @@
     "featured": false
   },
   {
-    "title": "Senior Services",
-    "classes": "feature-2 featured",
-    "description": "App for management caregivers and clients, focused on managing skills for clients with needs, approved and integrated with the government of são paulo, bringing information from caregivers.",
+    "title": "EducaON",
+    "classes": "project",
+    "description": "Aplicativo para gestão de aulas, cursos e ebooks totalmente digital, com mecanismos de pagamentos integrados.",
     "techList": [
-      "React-Native",
-      "React Typescript",
-      "MongoDB",
-      "React Native Paper",
+      "Educação Digital",
+      "Autonomia de Vendas/Faturamento",
+      "Ferramentas de IA para geração de curso/ebook",
+      "",
       "Gov.br Integration"
     ],
-    "img": "phone-green.png",
-    "siteLink": "",
-    "featured": true
+    "img": "educaon.png",
+    "siteLink": "https://educaon.digital",
+    "featured": false
   },
   {
-    "title": "ReactLMS",
+    "title": "Dr.Consulta",
     "classes": "project",
     "description": "Remote study project aiming to be a study platform. It can be instantiated for each institution so that they can register their contents, videos, texts and documents for their respective students to access from wherever they are.",
     "techList": [
@@ -96,8 +89,8 @@
       "Sequelize",
       ""
     ],
-    "img": "studying.png",
-    "siteLink": "",
+    "img": "-drconsulta.png",
+    "siteLink": "https://drconsulta.com",
     "featured": false
   }
 ]

@@ -3,10 +3,9 @@ import styled from '@emotion/styled';
 import { Link , Events } from 'react-scroll'
 
 import { theme, media } from '../styles'
-import logoLight from '../images/ck-logo-light.svg'
+import logoLight from '../images/rftorreson.png'
 import logoDark from '../images/ck-logo-dark.svg'
 import SocialIconLinks from './socialIconLinks';
-import Resume from '../../static/resume.pdf'
 
 const Nav = styled.nav`
   position: relative;
@@ -47,8 +46,11 @@ const NavContainer = styled.div`
 `
 
 const NavLogo = styled.img`
-  height: 30px;
-  width: 30px;
+  height: auto;
+  width: 80px;
+  max-height: 100px;
+  margin-top: 3vw;
+  margin-left: -1vw;
 `
 
 const MobileNavContainer = styled.div`
@@ -258,10 +260,10 @@ const Navigation = () => {
         <MobileNavContainer className={`${openNav ? 'open' : 'closed'}`}>
           <MobileNav className={`${openNav ? 'open' : 'closed'}`}>
             <NavLinks>
-              <Link href="#projects" className="nav-link" style={{ transitionDelay: `${openNav ? '100ms' : '250ms'}` }} offset={-30} to="projects" spy={true} smooth={true} delay={400} duration={500} >Projects</Link>
-              <Link href="#experience" className="nav-link" style={{ transitionDelay: `${openNav ? '150ms' : '200ms'}` }} offset={-30} to="experience" spy={true} smooth={true} delay={400} duration={500} >Experience</Link>
-              <Link href="#contact" className="nav-link" style={{ transitionDelay: `${openNav ? '200ms' : '150ms'}` }} offset={-30} to="contact" spy={true} smooth={true} delay={400} duration={500} >Contact</Link>
-              <a className="nav-link" href={Resume} target="_blank" rel="noopener noreferrer" style={{ transitionDelay: `${openNav ? '250ms' : '100ms'}` }} >Resume</a>
+              <Link href="#projects" className="nav-link" style={{ transitionDelay: `${openNav ? '100ms' : '250ms'}` }} offset={-30} to="projects" spy={true} smooth={true} delay={400} duration={500} >Projetos</Link>
+              {/* <Link href="#experience" className="nav-link" style={{ transitionDelay: `${openNav ? '150ms' : '200ms'}` }} offset={-30} to="experience" spy={true} smooth={true} delay={400} duration={500} ></Link> */}
+              <Link href="#contact" className="nav-link" style={{ transitionDelay: `${openNav ? '200ms' : '150ms'}` }} offset={-30} to="contact" spy={true} smooth={true} delay={400} duration={500} >Contato</Link>
+              {/* <a className="nav-link" href={Resume} target="_blank" rel="noopener noreferrer" style={{ transitionDelay: `${openNav ? '250ms' : '100ms'}` }} >Resume</a> */}
             </NavLinks>
             <SocialLinks style={{ transitionDelay: `${openNav ? '300ms' : '50ms'}` }} className={`${openNav ? 'open' : 'closed'}`}>
               <SocialIconLinks iconClasses="nav-icon" />
@@ -270,7 +272,7 @@ const Navigation = () => {
         <MobileNavOverlay onClick={() => updateOpenNav(false)} className={`${openNav ? 'open' : 'closed'}`} />
       </MobileNavContainer>
       <Nav className={`${scrolledTop ? 'top' : 'scrolled'}`}>
-        <NavLogo src={scrolledTop ? logoLight : logoDark} alt="Rafael Torreson Logo" />
+        <NavLogo src={logoLight} alt="Rafael Torreson Logo" />
         <NavButton
           onClick={() => updateOpenNav(prevState => !prevState)}
           className={`${openNav ? 'open' : 'closed'} ${scrolledTop ? 'top' : 'scrolled'}`} >

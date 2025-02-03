@@ -17,8 +17,7 @@ const ProjectGrid = styled.div`
   grid-gap: 20px;
 
   ${media.mediumOnly} {
-
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
 
     .featured {
       grid-column: span 2;
@@ -26,10 +25,9 @@ const ProjectGrid = styled.div`
   }
 
   ${media.largeUp} {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-
-
+    /* Se necessário, remova ou ajuste as regras abaixo
     .project {
       grid-column: span 2;
     }
@@ -43,8 +41,10 @@ const ProjectGrid = styled.div`
       grid-column: 3/6;
       grid-row: 3/5;
     }
+    */
   }
-`
+`;
+
 
 // const ViewMoreProjects = styled.div`
 //   background-color: ${theme.colors.mayerPurple};
@@ -116,7 +116,7 @@ class Projects extends React.Component {
       <Section bgColor={theme.colors.light} id="projects">
         <Element name="projects" />
         <Container>
-          <Title ref='title'>Top Projects.</Title>
+          <Title ref='title'>Projetos de Clientes</Title>
           <ProjectGrid>
             {projectsJSX}
           </ProjectGrid>

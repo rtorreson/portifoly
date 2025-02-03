@@ -12,7 +12,7 @@ const IndexPage = ({ data }) =>  (
   <Layout>
     <Header data={data.header} />
     <Projects data={data.projects.edges} />
-    <Experience data={data.experience.edges} />
+    {/* <Experience data={data.experience.edges} /> */}
 {/*  <Contact data={data.projects.edges} /> */}
     <Contacts />
     <Footer />

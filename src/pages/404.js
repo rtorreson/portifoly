@@ -32,9 +32,9 @@ const NotFoundPage = () => (
   <Layout>
     <Head>
       <Container>
-        <h1>404 PAGE NOT FOUND</h1>
-        <h3>You just hit a route that doesn&#39;t exist... the sadness. ):</h3>
-        <h3><a href="/">Go home ›</a></h3>
+        <h1>Página não encontrada!</h1>
+        {/* <h3>Esta página não existe, por favor</h3> */}
+        <h3><a href="/">Voltar ao início ›</a></h3>
       </Container>
     </Head>
   </Layout>

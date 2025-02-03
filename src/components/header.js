@@ -80,7 +80,7 @@ const Header = ({ data, bgColor }) => {
 
   const one = () => <HeaderSubCopy style={{ transitionDelay: '100ms', color:'white' }}>{data.intro}</HeaderSubCopy>;
   const two = () => <HeaderText style={{ transitionDelay: '200ms' }}>{data.name}</HeaderText>;
-  const three = () => <HeaderCopy style={{ transitionDelay: '300ms' }}>{data.copy} <HeaderLink href="https://torreson.com.br" target="_blank"> {data.company}</HeaderLink></HeaderCopy>;
+  const three = () => <HeaderCopy style={{ transitionDelay: '300ms' }}>{data.copy} <HeaderLink href="https://torreson.com.br" target="_blank"></HeaderLink></HeaderCopy>;
   const four = () => <HeaderSubCopy style={{ transitionDelay: '400ms' }}>{data.subCopy}</HeaderSubCopy>;
 
   const items = [one, two, three, four];

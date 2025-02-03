@@ -53,8 +53,8 @@ const SideItemsRight = () => {
       {isMounted &&
         <CSSTransition  classNames="fade" timeout={1000}>
           <ItemsContainer>
-            <a href="mailto:rafael.torreson@hotmail.com">
-              <Email>rafael.torreson@hotmail.com</Email>
+            <a href="mailto:contato@torreson.com.br">
+              <Email>contato@torreson.com.br</Email>
             </a>
             <Line />
           </ItemsContainer>

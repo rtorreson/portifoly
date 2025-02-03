@@ -1,11 +1,11 @@
 [
   {
-    "intro": "Hi, I'm",
-    "name": "Rafael Torreson",
-    "copy": "I'm a FullStack Developer",
-    "company": "Torreson",
+    "intro": "Olá, nós somos a",
+    "name": "RF Torreson",
+    "copy": "Consultoria e desenvolvimento de softwares.",
+    "company": "RF Torreson",
     "companyURL": "https://torreson.netlify.app",
     "subtitle": "Software Developer",
-    "subCopy": "I'm currently focused on expanding my experience designing and developing high performing websites."
+    "subCopy": ""
   }
 ]

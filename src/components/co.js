@@ -116,13 +116,13 @@ const FormContainer = styled.div`
       width: 100%;
     }
   }
-`
+`;
 const Position = styled.div`
-position: relative
+position: relative;
 `
 
 const Contacts = () => {
-    const number = (5511984308575);
+    const number = (5511976959281);
     const [message, setMessage] = useState('');
   
     return (
@@ -131,22 +131,27 @@ const Contacts = () => {
         <Container>
         <FlexRow>
         <div className={Position}>
-        <Title>Let's connect.</Title>
-        <Copy>If you want to know more about me or my work, or if you would just like to say hello, send me a message. I'd love to hear from you.</Copy>
+        <Title>Vamos conversar!</Title>
+        <Copy>Se quiser saber mais sobre nosso trabalho, conheçer nossas soluções, nos mande uma mensagem. Estamos ansiosos para te conhecer melhor! </Copy>
         <FormContainer>
         <div className="Contact Form">
             <div>
-                <label>Message</label>
+                <label>Mensagem</label>
           <input
             id="message"
-            placeholder="Hi, I'm from the company @Torreson and would like more information."
+            placeholder="Olá, eu gostaria de um orçamento personalizado"
             value={message}
             onChange={e => setMessage(e.target.value)}
           />
           </div>
-          <ReactWhatsapp number={number} message={message}>
-              Send >
-          </ReactWhatsapp>
+          {
+            message.length > 0 ? (
+              <ReactWhatsapp number={number} message={message}>
+                Enviar
+              </ReactWhatsapp>
+            ) : 
+            ''
+          }
         </div>
         </FormContainer>    
         <ImageContainer ref={Image}>
